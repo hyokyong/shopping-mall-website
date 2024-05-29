@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "env-cmd -f .env.development next dev",
+    "build": "env-cmd -f .env.production next build",
+    "start": "env-cmd -f .env.production next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -18,5 +18,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
