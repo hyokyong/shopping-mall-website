@@ -1,0 +1,36 @@
+{
+  "ko": {
+    "translation": {
+      "login": {
+        "email_label": "이메일",
+        "email_phd": "이메일 입력",
+        "pw_label": "비밀번호",
+        "pw_phd": "비밀번호 입력",
+        "login_btn": "로그인"
+      },
+      "loginError": {
+        "401": "권한이 없습니다.",
+        "403": "권한이 없습니다.",
+        "404": "아이디 또는 비밀번호를 확인해 주세요.",
+        "500": "server error"
+      }
+    }
+  },
+  "en": {
+    "translation": {
+      "login": {
+        "email_label": "email",
+        "email_phd": "email",
+        "pw_label": "password",
+        "pw_phd": "password",
+        "login_btn": "login"
+      },
+      "loginError": {
+        "401": "권한이 없습니다.",
+        "403": "권한이 없습니다.",
+        "404": "아이디 또는 비밀번호를 확인해 주세요.",
+        "500": "server error"
+      }
+    }
+  }
+}
