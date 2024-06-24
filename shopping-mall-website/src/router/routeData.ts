@@ -30,3 +30,9 @@ export const ROUTE_PARTNER_PATH = [ROUTE_PATH['ITEM_REGISTER']];
 
 /** ADMIN 접근 가능 라우트 경로 */
 export const ROUTE_ADMIN_PATH = [ROUTE_PATH['PARTNER_REGISTER']];
+
+/** Footer 적용 페이지 */
+export const HAS_FOOTER_PAGES = [ROUTE_PATH['LOGIN'], ROUTE_PATH['FORBIDDEN'], ROUTE_PATH['404']];
+
+/** GNB 미적용 페이지 */
+export const NONE_GNB_PAGES = [ROUTE_PATH['LOGIN'], ROUTE_PATH['SIGN_UP']];
